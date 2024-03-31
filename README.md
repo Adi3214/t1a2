@@ -16,7 +16,7 @@ Your portfolio website serves as a showcase of your skills, projects, and experi
 - Additional pages for blog posts, resume download, etc. (if applicable)
 
 ### Screenshots
-![Screenshot of Homepage](images/screenshot1.png)
+![Screenshot of Homepage](Images/screenshot1.png)
 ![Screenshot of Portfolio Section](images/screenshot2.png)
 ![Screenshot of another section](images/screenshot3.png)
 
@@ -38,7 +38,6 @@ Your portfolio website serves as a showcase of your skills, projects, and experi
 ### Tech Stack
 - HTML
 - CSS
-- JavaScript (if applicable)
-- Deployment Platform: [Specify where your website is hosted, e.g., GitHub Pages, Netlify, Heroku, etc.]
+- Deployment Platform: GitHub Pages
 
 
