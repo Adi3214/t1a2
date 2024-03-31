@@ -1,0 +1,242 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.resumeimg {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+#about,
+#hobbies {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.resume-box,
+.about-box,
+.skills-box,
+.hobbies-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.image-and-text {
+    display: flex;
+    align-items: center;
+}
+
+.centered-and-small {
+    width: 50%; /* Adjust the size as per your requirement */
+    max-width: 200px; /* Maximum width for smaller screens */
+}
+
+.text {
+    margin-left: 20px; /* Adjust the distance between the image and text */
+}
+
+.hobbies-images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.rounded-image {
+    border-radius: 20px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f8b500;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 7px; /* Adjust the spacing between icons */
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size of the icons */
+}
+
+
+
+
+.blog-posts,
+.sample-posts {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.blog-posts h2,
+.sample-posts h2 {
+    margin-top: 0;
+}
+
+.blog-posts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.blog-posts ul li {
+    margin-bottom: 10px;
+}
+
+.sample-posts .post {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    justify-content: center;
+}
+
+.sample-posts .post h3 {
+    margin-top: 0;
+}
+
+
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.education-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.education-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.education-item h2 {
+    margin-top: 0;
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
