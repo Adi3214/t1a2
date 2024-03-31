@@ -5,6 +5,7 @@
 - [GitHub Repository] https://github.com/Adi3214/t1a2
 
 ## Description
+Welcome to my portfolio website! This project serves as a showcase of my skills, projects, and experiences in the field of Web Dev . Below, you'll find more information about the purpose, functionality, features, and technology stack of my portfolio website.
 ### Purpose
 Your portfolio website serves as a showcase of your skills, projects, and experiences to potential employers, clients, or collaborators.
 
@@ -13,7 +14,7 @@ Your portfolio website serves as a showcase of your skills, projects, and experi
 - About section highlighting your background, skills, and interests
 - Portfolio section showcasing your projects with descriptions and links
 - Contact section allowing visitors to reach out to you
-- Additional pages for blog posts, resume download, etc. (if applicable)
+- Additional pages for blog posts, resume download, etc. 
 
 ### Screenshots
 ![Screenshot of Homepage](Images/screenshot1.png)
