@@ -17,8 +17,8 @@ Your portfolio website serves as a showcase of your skills, projects, and experi
 
 ### Screenshots
 ![Screenshot of Homepage](Images/screenshot1.png)
-![Screenshot of Portfolio Section](images/screenshot2.png)
-![Screenshot of another section](images/screenshot3.png)
+![Screenshot of Portfolio Section](Images/screenshot2.png)
+![Screenshot of another section](Images/screenshot3.png)
 
 
 ### Sitemap
