@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="animate__animated animate__backInUp social-icons">
+            <ul >
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-
                 <li><a href="education.html">Education</a></li>
                 <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
             </ul>
         </nav>
     </header>
 
-    <section class="blog-posts">
+    <section class="blog-posts animate__animated animate__slideInUp">
         <h2>Recent Posts</h2>
         <ul>
             <li><a href="#create">How to create website</a> - 12/03/2024</li>
@@ -33,7 +35,7 @@
         </ul>
     </section>
 
-    <section class="sample-posts">
+    <section class="sample-posts animate__animated animate__slideInUp">
         <h2>Posts</h2>
         <div class="post" id="create">
             <h3>How to create website</h3>
@@ -80,12 +82,13 @@
 
 
     <footer>
-        <div class="animate__animated animate__shakeX social-icons animate__repeat-2">
+        <div class="animate__animated animate__slideInUp social-icons animate__repeat-2">
             <a href="https://www.linkedin.com"><img src="Images/linkedin.png" alt="LinkedIn"></a>
             <a href="https://github.com"><img src="Images/github.png" alt="GitHub"></a>
             <a href="https://www.instagram.com"><img src="Images/instagram.png" alt="Instagram"></a>
             <p>&copy; 2024 Adi Khanna. All rights reserved.</p>
         </div>
+    </footer> 
 </body>
 
 </html>
