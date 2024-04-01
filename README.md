@@ -27,6 +27,7 @@ Your portfolio website serves as a showcase of your skills, projects, and experi
 - About
 - Education
 - Blog 
+- Contact
 
 
 
